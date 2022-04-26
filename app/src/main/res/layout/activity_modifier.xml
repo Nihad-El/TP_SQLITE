@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#FBDBFB"
+    tools:context=".ModifierActivity">
+
+
+    <EditText
+        android:id="@+id/code"
+        android:paddingLeft="20dp"
+        android:hint="Code"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="43dp"
+        android:background="@drawable/edit_text_bg"/>
+
+
+
+    <EditText
+        android:id="@+id/libelle"
+        android:paddingLeft="20dp"
+        android:hint="Libelle"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="43dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:id="@+id/edit"
+        android:background="@drawable/button_bg"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
